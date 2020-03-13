@@ -50,7 +50,7 @@ TEST_F(TesteQuestao, Simples) {
 
 TEST_F(TesteQuestao, Muitos)
 {
-    for (int j=10; j > 0; j++) {
+    for (int j=10; j > 0; j--) {
         list<int> l;
         int N = 3 + (rand() % 15);
 
